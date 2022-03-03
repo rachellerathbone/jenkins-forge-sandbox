@@ -7,7 +7,7 @@ pipeline {
              }
              post {
                  always {
-                     jiraSendBuildInfo site: 'rachellerathbone.atlassian.net', branch: 'TEST-123-awesome-feature'
+                     jiraSendBuildInfo site: 'rachellerathbone.atlassian.net'
                  }
              }
          }
